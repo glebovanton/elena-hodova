@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /css/
+Disallow: /audio/
+Disallow: /font-awesome/
+Disallow: /fonts/
+
+User-agent: Yandex
+Disallow: /css/
+Disallow: /audio/
+Disallow: /font-awesome/
+Disallow: /fonts/
+Host: www.elenahodova.by/
