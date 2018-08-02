@@ -6,6 +6,12 @@ $(document).ready(function () {
     var varWidth = 319;
     var bodyWidth = $('html').width();
     if (bodyWidth > varWidth) {
+/*        $("canvas.snow").let_it_snow({
+            speed: 1,
+            size: 10,
+            count: 26,
+            image: "img/snowflake.png"
+        });*/
         /*        $(".owl-carousel").remove();*/
         $('#change1').html('<div id="carousel1" class="owl-carousel owl-carousel1">' +
             '<div> <img class="img-responsive" src="img/свадьба.jpg" alt="свадьба"> </div>' +
