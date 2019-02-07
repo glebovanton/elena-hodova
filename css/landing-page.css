@@ -201,7 +201,17 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/hodova-bg.jpg) no-repeat 70% center;
+    background: rgba(38, 38, 38, 0.3) url(../img/hodova-bg.jpg) no-repeat 70% center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.intro-header:hover{
+    background: rgba(38, 38, 38, 0.4) url(../img/hodova-bg.jpg) no-repeat 70% center;
     background-size: cover;
 }
 
@@ -367,7 +377,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: rgba(38, 38, 38, 0.2) url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 /*.banner img{
@@ -384,9 +396,11 @@ h6 {
 
     /*    height: auto;*/
     background-size: cover;
-    -moz-transition: all .9s;
-    -webkit-transition: all .9s;
-    transition: all .9s;
+    -webkit-transition: all 1.9s;
+    -moz-transition: all 1.9s;
+    -ms-transition: all 1.9s;
+    -o-transition: all 1.9s;
+    transition: all 1.9s;
     background-position: center center;
 
 }
@@ -394,7 +408,7 @@ h6 {
 .banner:hover {
 
     /* transform: scale(0.5);*/
-    background-position: inherit;
+    background-position: unset;
 
 }
 

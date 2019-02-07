@@ -123,7 +123,7 @@ $(document).ready(function () {
 
 
     <!--Звуковой эффект в меню-->
-    var soundLink1 = $("#beep-1")[0];
+/*    var soundLink1 = $("#beep-1")[0];
     var soundLink2 = $("#beep-2")[0];
     var soundLink3 = $("#beep-3")[0];
 
@@ -142,7 +142,7 @@ $(document).ready(function () {
     $(".nav>li>:eq(3),.footer-menu>li>a:eq(2),.navbar-header>a").mouseenter(function () {
 
         soundLink1.play();
-    });
+    });*/
 
     //Аякс отправка форм
 
