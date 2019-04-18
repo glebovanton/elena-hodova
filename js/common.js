@@ -18,6 +18,10 @@ $(document).ready(function () {
             '<div> <img class="img-responsive" src="img/ходова.jpg" alt="ходова"> </div>' +
             '<div> <img class="img-responsive" src="img/радион.jpg" alt="радион"> </div>' +
             '<div> <img class="img-responsive" src="img/ведущая.jpg" alt="ведущая"> </div>' +
+            '<div> <img class="img-responsive" src="img/ведущий.jpg" alt="ведущий"> </div>' +
+            '<div> <img class="img-responsive" src="img/обряды.jpg" alt="обряды"> </div>' +
+            '<div> <img class="img-responsive" src="img/тамада.jpg" alt="тамада"> </div>' +
+            '<div> <img class="img-responsive" src="img/елена.jpg" alt="елена"> </div>' +
             '</div>');
 
         $('#change2').html('<div id="carousel2" class="owl-carousel owl-carousel2">' +
@@ -25,6 +29,7 @@ $(document).ready(function () {
             '<div> <img class="img-responsive" src="img/звук.jpg" alt="звук"> </div>' +
             '<div> <img class="img-responsive" src="img/фотосессия.jpg" alt="фотосессия"> </div>' +
             '<div> <img class="img-responsive" src="img/развлечения.jpg" alt="развлечения"> </div>' +
+            '<div> <img class="img-responsive" src="img/праздник.jpg" alt="праздник"> </div>' +
             '</div>');
 
         $('#change3').html('<div id="carousel3" class="owl-carousel owl-carousel3">' +
@@ -32,6 +37,7 @@ $(document).ready(function () {
             '<div> <img class="img-responsive" src="img/настроение.jpg" alt="настроение"> </div>' +
             '<div> <img class="img-responsive" src="img/праздники.jpg" alt="праздники"> </div>' +
             '<div> <img class="img-responsive" src="img/юбилей.jpg" alt="юбилей"> </div>' +
+            '<div> <img class="img-responsive" src="img/задор.jpg" alt="задор"> </div>' +
             '</div>')
 
     }
@@ -42,6 +48,7 @@ $(document).ready(function () {
     owl1.owlCarousel({
         items: 1,
         autoplay: true,
+        lazyLoad: true,
         loop: true,
         autoplayHoverPause: true,
         autoplaySpeed: 1000, /* скорость смены слайда*/
@@ -62,9 +69,9 @@ $(document).ready(function () {
     var owl2 = $("#carousel2");
     owl2.owlCarousel({
         autoplaySpeed: 1500,
-
         items: 1,
         autoplay: true,
+        lazyLoad: true,
         loop: true,
         autoplayHoverPause: true
     });
@@ -73,9 +80,9 @@ $(document).ready(function () {
     var owl3 = $("#carousel3");
     owl3.owlCarousel({
         autoplaySpeed: 2000,
-
         items: 1,
         autoplay: true,
+        lazyLoad: true,
         loop: true,
         autoplayHoverPause: true,
 
