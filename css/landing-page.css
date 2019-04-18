@@ -287,6 +287,11 @@ h6 {
     border-radius: .5%;
 }
 
+.owl-carousel
+{
+    touch-action: manipulation;
+}
+
 .round {
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid grey; /* Параметры рамки */
