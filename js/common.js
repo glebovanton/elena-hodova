@@ -19,7 +19,7 @@ $(document).ready(function () {
             '<div> <img class="img-responsive" src="img/радион.jpg" alt="радион"> </div>' +
             '<div> <img class="img-responsive" src="img/ведущая.jpg" alt="ведущая"> </div>' +
             '<div> <img class="img-responsive" src="img/ведущий.jpg" alt="ведущий"> </div>' +
-            '<div> <img class="img-responsive" src="img/обряды.jpg" alt="обряды"> </div>' +
+            '<div> <img class="img-responsive" src="img/обряд.jpg" alt="обряд"> </div>' +
             '<div> <img class="img-responsive" src="img/тамада.jpg" alt="тамада"> </div>' +
             '<div> <img class="img-responsive" src="img/елена.jpg" alt="елена"> </div>' +
             '</div>');
