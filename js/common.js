@@ -38,8 +38,12 @@ $(document).ready(function () {
             '<div> <img class="owl-lazy img-responsive" data-src="img/праздники.jpg" alt="праздники"> </div>' +
             '<div> <img class="owl-lazy img-responsive" data-src="img/юбилей.jpg" alt="юбилей"> </div>' +
             '<div> <img class="owl-lazy img-responsive" data-src="img/задор.jpg" alt="задор"> </div>' +
-            '</div>')
-
+            '</div>');
+        $('#change4').html('<div id="carousel4" class="owl-carousel owl-carousel4">' +
+            '<div> <img class="owl-lazy img-responsive" data-src="img/декорации.jpg" alt="декорации"> </div>' +
+            '<div> <img class="owl-lazy img-responsive" data-src="img/украшение.jpg" alt="украшение"> </div>' +
+            '<div> <img class="owl-lazy img-responsive" data-src="img/оформление.jpg" alt="оформление"> </div>' +
+            '</div>');
     }
 
 //Слайдер
@@ -91,6 +95,19 @@ $(document).ready(function () {
 
     });
     scrollSlider(owl3);
+
+    var owl4 = $("#carousel4");
+    owl4.owlCarousel({
+        autoplaySpeed: 2000,
+        items: 1,
+        autoplay: true,
+        lazyLoad:true,
+        lazyLoadEager: 2,
+        loop: true,
+        autoplayHoverPause: true
+
+    });
+    scrollSlider(owl4);
 
     /*    Скролл на слайдере*/
 
