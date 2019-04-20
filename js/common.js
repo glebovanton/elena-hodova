@@ -29,7 +29,7 @@ $(document).ready(function () {
             '<div> <img class="owl-lazy img-responsive" data-src="img/звук.jpg" alt="звук"> </div>' +
             '<div> <img class="owl-lazy img-responsive" data-src="img/фотосессия.jpg" alt="фотосессия"> </div>' +
             '<div> <img class="owl-lazy img-responsive" data-src="img/развлечения.jpg" alt="развлечения"> </div>' +
-            '<div> <img class="owl-lazy img-responsive" data-src="img/праздник.jpg" alt="праздник"> </div>' +
+            '<div> <img class="owl-lazy img-responsive" data-src="img/праздники.jpg" alt="праздники"> </div>' +
             '</div>');
 
         $('#change3').html('<div id="carousel3" class="owl-carousel owl-carousel3">' +
